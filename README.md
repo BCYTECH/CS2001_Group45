@@ -3,6 +3,6 @@ CS2001 - Group Project
 
 Aim: The group task is to build a software system with a front-end, and a back-end with (local) database access.
 The theme of this year is UN Sustainable Development Goals.
-/n More can info can be found here: https://www.un.org/sustainabledevelopment/
+More can info can be found here: https://www.un.org/sustainabledevelopment/
 
-(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.un.org%2Fdevelopment%2Fdesa%2Fen%2Fnews%2Fsustainable%2F44-countries-presents-hlpf-2017.html&psig=AOvVaw3jEHpOBudu8DlCMDQ76wg-&ust=1602981894352000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjnwIWzuuwCFQAAAAAdAAAAABAI)
+![List of UN Sustainable Development Goals](https://i1.wp.com/www.un.org/sustainabledevelopment/wp-content/uploads/2015/12/english_SDG_17goals_poster_all_languages_with_UN_emblem_1.png?fit=728%2C451&ssl=1)
