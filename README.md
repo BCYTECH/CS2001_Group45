@@ -1,5 +1,13 @@
-# CS2001_Group45
+# CS2001_Group45 (Incomplete)
 CS2001 - Group Project
+
+### Team Members:
+- Petko Kolev 
+- Thula Kamaleswaran 
+- Muneeb Awan 
+- Bryson Chin | [@BCYTECH](https://github.com/BCYTECH)
+- Rishyap Kocherlakota 
+- Bhargavi Gottimukkala 
 
 Aim: The group task is to build a software system with a front-end, and a back-end with (local) database access.
 The theme of this year is UN Sustainable Development Goals.
