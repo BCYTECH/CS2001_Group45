@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Basic -->
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- Site Metas -->
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Site CSS -->
+      <link rel="stylesheet" href="./contactus.css">
+      <script src="./formvalidation.js"></script>
+   </head>
+   <body>
+
+     <!-- Top Bar -->
+     <div class="top-bar">
+      <a href="login.html">REGISTER / SIGN IN </a>
+   </div>
+
+   <!-- Navbar -->
+   <div class="nav-wrapper">
+      <div class="burger-menu">
+         <span class="line line-1"></span>
+         <span class="line line-2"></span>
+         <span class="line line-3"></span>
+      </div>
+      <div>
+         <a href="homepage.html" class="logo"><img src="assets/logo.png" alt="" /></a>
+      </div>
+      <ul class="navlinks">
+         <li class="nav-link"><a href="homepage.html">HOME</a></li>
+         <li class="nav-link"><a href="donatepage.html">DONATE</a></li>
+         <li class="nav-link"><a href="recruitment.html">RECRUITMENT</a></li>
+         <li class="nav-link"><a href="contactus.html">CONTACT US</a></li>
+         <li class="nav-link"><a href="login.html">LOGIN</a></li>
+      </ul>
+   </div>
+
+      <!-- ! section 1 starts -->
+
+<div class="formcontainer">
+    <form id="myform" name="myform">
+        <h1>Contact Us</h1>
+        
+        <span>Name: </span>
+        <input id="aname" type="text" name="aname"/>
+        <!--<p id="nameresult"></p>-->
+        
+        <span>Email: </span>
+        <input id="aemail" type="text" name="aemail"/>
+        <!--<p id="emailresult"></p>-->
+
+        <span>Subject: </span>
+        <input id="subject" type="text" name="subject"/>
+        <!--<p id="subjectresult"></p>-->
+
+        <span>Message: </span>
+        <textarea id="message" type="text" name="message"> </textarea>
+        <!--<p id="messageresult"></p>-->
+
+        <div id="clickme">
+         <input type="button" id="contactusbtn" value="Submit" onclick="submitForm()"/>
+        </div>
+        <p id="buttonresult"></p>
+    </form>
+</div>
+
+      <!-- !Section 2 starts -->
+    
+      
+      
+    
+      <!-- FOOTER SECTION -->
+      <footer>
+         <div class="footer-row-bg">
+            <br>
+            <div class="text-center">
+               <p>
+                  <span>
+                     <a href="termsandconditions.html">Terms and Conditions</a> 
+                  </span>
+                  |
+                  <span>
+                     <a href="recruitment.html">Recruitment</a> 
+                  </span>
+                  |
+                  <span>
+                     <a href="donatepage.html">Donate</a> 
+                  </span>
+                  |
+                  <span>
+                     <a href="privacypolicy.html">Privacy Policy</a>
+                  </span>
+               </p>
+            </div>
+            <br>
+            <p class="copyright text-center"> Copyright © 2021 DonationGram. All rights reserved. </p>
+         </div>
+      </footer>
+
+      <!-- Scripts -->
+      <script>
+         const burger = document.querySelector(".burger-menu");
+         const navMenu = document.querySelector(".navlinks");
+         const shop = document.querySelector(".shop");
+         const accordian = document.querySelector(".accordian");
+         const arrow = document.querySelector(".arrow");
+         
+         burger.addEventListener("click", () => {
+           burger.classList.toggle("toggle");
+           navMenu.classList.toggle("show");
+         });
+         
+         shop.addEventListener("click", () => {
+           accordian.classList.toggle("show");
+           arrow.classList.toggle("down");
+         });
+
+      </script>
+   </body>
+</html>
