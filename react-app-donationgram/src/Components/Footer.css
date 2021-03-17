@@ -1,0 +1,18 @@
+footer {
+    background-color: #020f29;
+  }
+  
+  .copyright {
+    background-color: #09112e;
+    padding: 10px;
+    color: #ccffff;
+  }
+  
+  .footer-row-bg {
+    background-color: #1f2d5d;
+    color: #cccccc;
+  }
+  
+  p span a {
+    color: #ccffff;
+  }
