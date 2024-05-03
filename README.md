@@ -1,4 +1,4 @@
-# CS2001_Group45 (Incomplete)
+# CS2001_Group45 (Archived)
 CS2001 - Group Project
 
 ### Team Members:
